@@ -1,5 +1,3 @@
-import React from 'react';
-
 const Profile = ({ name, bio, imageSrc }) => {
   return (
     <div className="profile">

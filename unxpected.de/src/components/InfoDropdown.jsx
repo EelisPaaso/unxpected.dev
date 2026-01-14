@@ -3,10 +3,12 @@ import { useState } from 'react'
 const InfoDropdown = ({ title, content }) => {
   const [isOpen, setIsOpen] = useState(false)
 
+  const toggleDropdown = () => setIsOpen(!isOpen)
+
   return (
     <div 
       className={`info-dropdown ${isOpen ? 'open' : ''}`}
-      onClick={() => setIsOpen(!isOpen)}
+      onClick={toggleDropdown}
     >
       <div className="info-dropdown-header">
         <span>{title}</span>
