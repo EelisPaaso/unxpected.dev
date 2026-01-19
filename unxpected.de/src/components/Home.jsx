@@ -29,10 +29,6 @@ function Home() {
 
   return (
     <>
-      <div className="video-background">
-        <video src={kisuVideo} autoPlay loop muted playsInline />
-        <div className="video-overlay"></div>
-      </div>
       <Container>
         <Profile {...PROFILE_DATA} />
         

@@ -1,6 +1,5 @@
 import './App.css'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import CatRandomizer from './components/CatRandomizer'
 import Home from './components/Home'
 
 function App() {
@@ -8,7 +7,6 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/pablo" element={<CatRandomizer />} />
       </Routes>
     </BrowserRouter>
   )
