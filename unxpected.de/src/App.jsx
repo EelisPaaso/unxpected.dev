@@ -3,6 +3,7 @@ import './App.css'
 import pfp from './assets/kotty.png'
 import PabloArchive from './components/PabloArchive'
 import Footer from './components/footer'
+import Troll from './components/troll'
 
 const profile = {
   name: 'Unxpected',
@@ -41,6 +42,9 @@ function HomePage() {
           <Link className="card" to="/PabloArchive">
             Pablo photo archive
           </Link>
+          <Link className="card" to="/Troll">
+            Click me!!!
+          </Link>
         </div>
       </section>
     </main>
@@ -54,6 +58,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/PabloArchive" element={<PabloArchive />} />
+          <Route path="/Troll" element={<Troll/>} />
         </Routes>
       </main>
       <Footer />
