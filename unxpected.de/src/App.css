@@ -24,34 +24,29 @@
   box-shadow: 0 6px 24px rgba(0, 0, 0, 0.25);
 }
 
-.profile-name {
+.profile h1 {
   font-size: 2rem;
   margin: 0;
 }
 
-.profile-bio {
+.profile p {
   margin: 0;
   max-width: 520px;
   color: var(--muted-color);
   line-height: 1.5;
 }
 
-.section-title,
-.page-title {
+.links h2 {
   margin: 0 0 0.5rem;
   font-size: 1.25rem;
   letter-spacing: 0.02em;
 }
 
-.page-title {
+.container h1 {
   text-align: center;
   font-size: 1.5rem;
-}
-
-.page-subtitle {
-  margin: 0;
-  text-align: center;
-  color: var(--muted-color);
+  margin: 0 0 0.5rem;
+  letter-spacing: 0.02em;
 }
 
 .links {
@@ -128,6 +123,7 @@
 
 .content-wrap {
   flex: 1;
+  padding-bottom: 60px;
 }
 
 @media (max-width: 640px) {
@@ -136,7 +132,7 @@
     gap: 2rem;
   }
 
-  .profile-name {
+  .profile h1 {
     font-size: 1.6rem;
   }
 

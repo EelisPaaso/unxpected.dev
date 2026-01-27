@@ -1,5 +1,3 @@
-import { Link } from 'react-router-dom'
-import Container from './Container'
 import pablo1 from '../assets/pablo1.webp'
 import pablo2 from '../assets/pablo2.webp'
 import pablo3 from '../assets/pablo3.webp'
@@ -24,11 +22,8 @@ const PABLO_PHOTOS = [
 
 export default function PabloArchive() {
   return (
-    <Container>
-      <Link to="/" className="back-link">
-        ← Back
-      </Link>
-      <h1 className="page-title">photos of pablo because he has crazy aura</h1>
+    <div className="container">
+      <h1>photos of pablo because he has crazy aura</h1>
       <div className="pablo-photos">
         {PABLO_PHOTOS.map((photo, index) => (
           <div key={index} className="pablopic">
@@ -36,6 +31,6 @@ export default function PabloArchive() {
           </div>
         ))}
       </div>
-    </Container>
+    </div>
   )
 }
