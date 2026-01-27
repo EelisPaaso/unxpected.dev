@@ -1,4 +1,5 @@
-import trollface from './assets/troll.png'
+import trollface from '../assets/troll.png'
+import { Link } from 'react-router-dom'
 
 
 export default function Troll() {
