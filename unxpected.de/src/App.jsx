@@ -5,6 +5,7 @@ import PabloArchive from './components/PabloArchive'
 import Footer from './components/footer'
 import Header from './components/header'
 import Troll from './components/troll'
+import Pabloclicker from './components/Pabloclicker'
 import bgvideo from './assets/kisu.mp4'
 
 export default function App() {
@@ -19,6 +20,7 @@ export default function App() {
           <Route path="/" element={<Profile />} />
           <Route path="/PabloArchive" element={<PabloArchive />} />
           <Route path="/Troll" element={<Troll />} />
+          <Route path="/pabloclicker" element={<Pabloclicker />} />
         </Routes>
       </main>
       <Footer />

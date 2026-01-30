@@ -2,10 +2,12 @@ import trollface from '../assets/troll.png'
 
 
 export default function Troll() {
-    return(
-        <>
-        <p>you've been trolled</p>
-        <img src={trollface} alt="" />
-        </>
-    )
+  return (
+    <main className="page">
+      <div className="profile">
+        <h2>you've been trolled</h2>
+        <img src={trollface} alt="trollface"/>
+      </div>
+    </main>
+  )
 }

@@ -38,6 +38,9 @@ export default function Profile() {
           <Link className="card" to="/PabloArchive">
             Pablo photo archive
           </Link>
+          <Link className="card" to="Pabloclicker">
+            Pabloclicker
+          </Link>
           <Link className="card" to="/Troll">
             Click me!!!
           </Link>

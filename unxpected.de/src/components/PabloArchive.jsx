@@ -17,20 +17,23 @@ import './PabloArchive.css'
 
 const PABLO_PHOTOS = [
   pablo1, pablo2, pablo3, pablo4, pablo6, pablo7, pablo8, pablo9,
-  pablo10, pablo11, pablo12, pablo13, pablo14, pablo15, pablo16, pablo16
+  pablo10, pablo11, pablo12, pablo13, pablo14, pablo15, pablo16
 ]
 
 export default function PabloArchive() {
   return (
-    <div className="container">
-      <h1>photos of pablo because he has crazy aura</h1>
-      <div className="pablo-photos">
-        {PABLO_PHOTOS.map((photo, index) => (
-          <div key={index} className="pablopic">
-            <img src={photo} alt={`Pablo ${index + 1}`} className="pablopic-img" />
-          </div>
-        ))}
+    <main className="page">
+      <div className="container">
+        <h1>PABLO PHOTOS.</h1>
+        <p>Photos of pab. because he has insane aura and is quite cute</p>
+        <div className="pablo-photos">
+          {PABLO_PHOTOS.map((photo, index) => (
+            <div key={index} className="pablopic">
+              <img src={photo} alt={`Pablo ${index + 1}`} className="pablopic-img" />
+            </div>
+          ))}
+        </div>
       </div>
-    </div>
+    </main>
   )
 }

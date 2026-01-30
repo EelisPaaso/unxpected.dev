@@ -1,7 +1,7 @@
 .pablo-photos {
   width: 100%;
   max-width: 900px;
-  margin: 0 auto 2rem;
+  margin: 100px auto 2rem;
   padding: 0 1.5rem;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
