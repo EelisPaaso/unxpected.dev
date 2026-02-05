@@ -1,7 +1,6 @@
 :root {
   --bg-color: #0c0c0f;
   --text-color: #ffffff;
-  --muted-color: #ffffff;
   --border-color: rgba(255, 255, 255, 0.18);
   --accent-color: #abd8ff;
 }
@@ -59,7 +58,6 @@ a {
 .profile p {
   margin: 0;
   max-width: 520px;
-  color: var(--muted-color);
   line-height: 1.5;
 }
 
